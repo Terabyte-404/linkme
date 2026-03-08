@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "LinkMeApp",
+    "slug": "linkmeapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1e3a5f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.linkmeapp.mobile"
+    },
+    "android": {
+      "package": "com.linkmeapp.mobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "linkmeapp"
+      }
+    }
+  }
+}
